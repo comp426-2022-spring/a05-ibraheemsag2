@@ -10,7 +10,7 @@ const stream = require('stream');
 const fs = require('fs');
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
-
+app.use(express.static("./public"));
 arg["help", "port", "debug", "log"]
 // Store help text 
 const help = (`
