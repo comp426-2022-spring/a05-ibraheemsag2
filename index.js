@@ -2,7 +2,7 @@
 // Require Express.js
 const express = require('express')
 const app = express()
-const db = require("./database.js")
+const db = require("./src/services/database.js")
 
 const morgan = require('morgan');
 const arg = require('minimist')(process.argv.slice(2))
